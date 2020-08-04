@@ -59,8 +59,8 @@ body {
 
 .header {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ebc9d1d2), color-stop(50%, #e1e3e2bc)), url("../img/pexels-samad-ismayilov-735552.jpg");
-  background: linear-gradient(to right, #ebc9d1d2 50%, #e1e3e2bc 50%), url("../img/pexels-samad-ismayilov-735552.jpg");
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ebc9d1d2), color-stop(50%, #e1e3e2bc)), url("../img/Home.jpg");
+  background: linear-gradient(to right, #ebc9d1d2 50%, #e1e3e2bc 50%), url("../img/Home.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -261,7 +261,7 @@ body {
 
 .trending__image {
   height: 35rem;
-  width: 30rem;
+  width: 25rem;
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
   border-radius: 0.5rem;
@@ -366,8 +366,8 @@ body {
 .about__div--photo {
   height: 50rem;
   width: 200rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f312f3), to(#eb77e1)), url("../img/pexels-sadman-chowdhury-2747267.jpg");
-  background: linear-gradient(#f312f3, #eb77e1), url("../img/pexels-sadman-chowdhury-2747267.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#f312f3), to(#eb77e1)), url("../img/Intro.jpg");
+  background: linear-gradient(#f312f3, #eb77e1), url("../img/Intro.jpg");
   background-size: cover;
   background-position: bottom;
   margin-right: auto;
@@ -496,14 +496,14 @@ body {
 }
 
 .collections__img {
-  height: 25rem;
+  height: 35rem;
   width: 25rem;
   border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 62.5em) {
   .collections__img {
-    height: 22rem;
+    height: 32rem;
     width: 22rem;
   }
 }
